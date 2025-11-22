@@ -223,7 +223,6 @@ export const CartProvider = ({ children }) => {
             clearCart,
             getCartTotal,
             getCartCount,
-            getCartCount,
             isLoading,
             showSuccessModal,
             closeSuccessModal
