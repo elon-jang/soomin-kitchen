@@ -5,6 +5,7 @@ import tteokbokkiImg from '../assets/products/tteokbokki.png';
 import seaweedImg from '../assets/products/seaweed.png';
 import gochujangImg from '../assets/products/gochujang.png';
 import riceImg from '../assets/products/rice.png';
+import bibimbapImg from '../assets/products/bibimbap.png';
 
 export const products = [
     {
@@ -54,7 +55,7 @@ export const products = [
             ko: "밀키트",
             en: "Meal Kit"
         },
-        image: "https://images.unsplash.com/photo-1590301157890-4810ed352733?auto=format&fit=crop&w=800&q=80",
+        image: bibimbapImg,
         description: {
             ko: "완벽한 비빔밥을 위한 모든 채소와 소스가 포함되어 있습니다. 밥만 추가하세요.",
             en: "All the vegetables and sauces you need for a perfect Bibimbap. Just add rice."
