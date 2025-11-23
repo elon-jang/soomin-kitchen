@@ -30,7 +30,7 @@ const Header = () => {
 
                 {/* Logo (Center on mobile, Left on desktop) */}
                 <Link to="/" className="text-2xl font-bold tracking-tighter font-sans">
-                    SOOMIN's KICHEN
+                    SOOMIN's KITCHEN
                 </Link>
 
                 {/* Desktop Navigation */}

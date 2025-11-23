@@ -20,7 +20,7 @@ React 19와 Vite를 사용한 한국 식품 및 건강식품 전문 쇼핑몰 �
 - 장바구니 담기 성공 모달
 
 ### 📦 상품 관리
-- Supabase 데이터베이스 연동
+- **하이브리드 데이터 전략**: Supabase 데이터베이스 우선 연동, 실패 시 로컬 데이터(`products.js`) 폴백
 - 카테고리별 상품 분류
 - 상품 상세 정보 페이지
 - 신상품 표시
@@ -103,6 +103,8 @@ shopping/
 │   ├── context/         # React Context
 │   │   ├── AuthContext.jsx
 │   │   └── CartContext.jsx
+│   ├── assets/          # 정적 이미지 및 에셋
+│   │   └── products/    # 상품 이미지
 │   ├── data/            # 정적 데이터
 │   │   └── products.js
 │   ├── lib/             # 라이브러리 설정

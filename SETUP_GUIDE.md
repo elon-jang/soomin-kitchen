@@ -39,6 +39,8 @@
    - **Region**: Northeast Asia (Seoul) 선택
 4. "Create new project" 클릭하고 완료될 때까지 대기 (약 2-3분)
 
+> **참고**: Supabase를 설정하지 않아도 애플리케이션은 `src/data/products.js`의 로컬 데이터를 사용하여 실행됩니다. 하지만 인증, 장바구니 동기화, 결제 기능은 제한될 수 있습니다.
+
 ### 2.2. API 키 확인
 
 1. 프로젝트 대시보드에서 "Settings" → "API" 메뉴 선택

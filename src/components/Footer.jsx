@@ -7,7 +7,7 @@ const Footer = () => {
             <div className="container-custom">
                 <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
                     <div>
-                        <h3 className="text-xl font-bold mb-6 tracking-tighter">SOOMIN's KICHEN</h3>
+                        <h3 className="text-xl font-bold mb-6 tracking-tighter">SOOMIN's KITCHEN</h3>
                         <p className="text-gray-400 text-sm leading-relaxed">
                             Bringing the authentic taste of Korea to your doorstep. Premium ingredients, traditional recipes, and modern convenience.
                         </p>
@@ -54,7 +54,7 @@ const Footer = () => {
 
                 <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
                     <p className="text-xs text-gray-500">
-                        © 2024 SOOMIN's KICHEN. All rights reserved.
+                        © 2024 SOOMIN's KITCHEN. All rights reserved.
                     </p>
                     <div className="flex gap-6">
                         <span className="text-xs text-gray-500">Terms</span>
